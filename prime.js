@@ -9,7 +9,7 @@ fact++;
 }
 }
 
-if(fact == 0)
+if(fact == 1)
 {
 console.log("Prime")
 }
