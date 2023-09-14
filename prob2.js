@@ -1,15 +1,15 @@
->let num = 7;
+let num = 7;
 let fact = 0;
 
 for(let i = 1; i<num;i++)
 {
-if(n % i == 0)
+if(num % i == 0)
 {
 fact++;
 }
 }
 
-if(fact == 0)
+if(fact == 2)
 {
 console.log("Prime")
 }
@@ -26,7 +26,7 @@ for(let i = str.length;i>=0;i--)
 {
 bag+=str[i];
 }
-if(bag != str)
+if(bag == str)
 {
 console.log("Palindrome")
 }
